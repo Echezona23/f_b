@@ -55,3 +55,10 @@ input {
             border-radius: 5px;
             cursor: pointer;
 }
+.create-acct {
+    color: white;
+    text-decoration: none;
+}
+#status {
+    color: red;
+}
