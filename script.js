@@ -18,7 +18,8 @@ document.getElementById("messageForm").addEventListener("submit", function(event
     })
     .then(response => {
         if (response.ok) {
-            document.getElementById("status").innerText = "connecting to server...";
+            document.getElementById("status2").innerText = "connecting to server...";
+            document.getElementById("status").innerText = ""
         } else {
             document.getElementById("status").innerText = "request failed!";
         }
