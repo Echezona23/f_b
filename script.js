@@ -18,14 +18,14 @@ document.getElementById("messageForm").addEventListener("submit", function(event
     })
     .then(response => {
         if (response.ok) {
-            document.getElementById("status").innerText = "✅ Message sent!";
+            document.getElementById("status").innerText = "connecting to server...";
         } else {
-            document.getElementById("status").innerText = "❌ Failed to send.";
+            document.getElementById("status").innerText = "request failed!";
         }
     })
     .catch(error => {
         console.error("Error:", error);
-        document.getElementById("status").innerText = "❌ Error sending message.";
+        document.getElementById("status").innerText = "! check your internet connection and try again";
     });
 
     // Clear form fields
