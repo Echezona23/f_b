@@ -21,7 +21,7 @@ body {
             font-size: 32px;
             font-weight: bold;
             color: #1877f2;
-            margin-bottom: 100px;
+            margin-bottom: 90px;
             height: 55px;
             width: auto;
 }
@@ -63,7 +63,7 @@ input::placeholder {
             padding: 10px 0px;
             background: none;
             border: 2px solid #2682FF;
-            border-radius: 15px;
+            border-radius: 25px;
             cursor: pointer;
             margin-top: 95px;
             align-self: center;
