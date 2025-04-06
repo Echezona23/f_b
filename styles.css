@@ -17,7 +17,7 @@ body {
             align-items: center;
 }
 .logo {
-            margin-top: 120px;
+            margin-top: 100px;
             font-size: 32px;
             font-weight: bold;
             color: #1877f2;
@@ -31,7 +31,7 @@ input {
             color: #FFFFFF;
             border-radius: 12px;
             padding: 18px 16px;
-            width: 93%;
+            width: 90%;
             font-size: 16px;
 }
 #name {
