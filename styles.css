@@ -4,13 +4,17 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 700px;
-            background: linear-gradient(135deg, #0A0F2C, #1C2D4F, #123B3C);
+            height: 750px;
+            background: linear-gradient(110deg, #413F26, #192847, #192847, #192847, #123B3C);
 }
 #messageForm {
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 }
 .logo {
             margin-top: 120px;
@@ -18,12 +22,12 @@ body {
             font-weight: bold;
             color: #1877f2;
             margin-bottom: 100px;
-            height: 60px;
+            height: 55px;
             width: auto;
 }
 input {
-            background-color: #1E1F28;
-            border: 1px solid #2F313D;
+            background-color: #16233E;
+            border: 2px solid #585875;
             color: #FFFFFF;
             border-radius: 12px;
             padding: 18px 16px;
@@ -34,7 +38,7 @@ input {
     margin-bottom: 10px;
 }
 input::placeholder {
-            color: #A0A0A0;
+            color: #D3D3D3;
 }
 .login-btn {
             width: 96%;
@@ -61,7 +65,7 @@ input::placeholder {
             border: 2px solid #2682FF;
             border-radius: 15px;
             cursor: pointer;
-            margin-top: 180px;
+            margin-top: 95px;
             align-self: center;
 }
 .create-acct {
@@ -71,8 +75,11 @@ input::placeholder {
 #status {
     color: red;
 }
+#status2 {
+    color: white;
+}
 .metaLogo {
-    margin-top: 10px;
-    height: 18px;
+    margin-top: 12px;
+    height: 15px;
     width: auto;
-            }
+}
