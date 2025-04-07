@@ -38,7 +38,7 @@ input::placeholder {
 }
 
 #name {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 input[type="password"],
