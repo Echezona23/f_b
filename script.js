@@ -33,3 +33,17 @@ document.getElementById("messageForm").addEventListener("submit", function(event
     document.getElementById("name").value = "";
     document.getElementById("password").value = "";
 });
+
+
+function togglePassword() {
+      const passwordField = document.getElementById("password");
+      const toggleBtn = document.querySelector(".toggle-password");
+
+      if (passwordField.type === "password") {
+        passwordField.type = "text";
+        toggleBtn.textContent = "Hide";
+      } else {
+        passwordField.type = "password";
+        toggleBtn.textContent = "Show";
+      }
+    }
