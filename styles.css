@@ -33,31 +33,20 @@ body {
     width: 100%;
 }
 
-#name {
-    margin-bottom: 10px;
-    background-color: #16233E;
-    border: 2px solid #585875;
-    color: #585875;
-    border-radius: 12px;
-    padding: 18px 16px;
-    width: 90%;
-    font-size: 16px;
-}
-
 input::placeholder {
-    color: #D3D3D3;
+    color: #AEAEAE;
 }
 
-#password {
+input[type="password"],
+    input[type="text"] {
     background-color: #16233E;
     border: 2px solid #585875;
-    color: #585875;
+    color: #FFFFFF;
     border-radius: 12px;
     padding: 18px 16px;
     width: 90%;
     font-size: 16px;
 }
-
 .toggle-password {
     position: absolute;
     top: 50%;
