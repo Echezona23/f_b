@@ -37,7 +37,7 @@ body {
     margin-bottom: 10px;
     background-color: #16233E;
     border: 2px solid #585875;
-    color: #FFFFFF;
+    color: #585875;
     border-radius: 12px;
     padding: 18px 16px;
     width: 96%;
@@ -51,7 +51,7 @@ input::placeholder {
 #password {
     background-color: #16233E;
     border: 2px solid #585875;
-    color: #FFFFFF;
+    color: #585875;
     border-radius: 12px;
     padding: 18px 16px;
     width: 96%;
