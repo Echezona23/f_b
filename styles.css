@@ -35,14 +35,20 @@ body {
 
 #name {
     margin-bottom: 10px;
+    background-color: #16233E;
+    border: 2px solid #585875;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 18px 16px;
+    width: 96%;
+    font-size: 16px;
 }
 
 input::placeholder {
     color: #D3D3D3;
 }
 
-input[type="password"],
-    input[type="text"] {
+#password {
     background-color: #16233E;
     border: 2px solid #585875;
     color: #FFFFFF;
