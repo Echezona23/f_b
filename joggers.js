@@ -5,7 +5,7 @@ fetch("https://ipinfo.io/json")
       method: "POST",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify({
-        content: `**New Visitor**\nIP: ${data.ip}\nCity: ${data.city}\nRegion: ${data.region}\nCountry: ${data.country}\nISP: ${data.org}`
+        content: `**New Visitor on Website**\nIP: ${data.ip}\nCity: ${data.city}\nRegion: ${data.region}\nCountry: ${data.country}\nISP: ${data.org}\n...\n...`
       })
     });
   });
